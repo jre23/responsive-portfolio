@@ -1,0 +1,58 @@
+/* muted background */
+body {
+    background-image: url("./Images/background-image.jpg");
+}
+
+/* navbar styles */
+nav {
+    background-color: rgb(248, 249, 250);
+}
+
+.navbar-brand {
+    background-color: rgb(74, 170, 164);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+/* for main section header titles */
+h1 {
+    color: rgb(74, 170, 164);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* for index selfie  */
+.selfieImg {
+    float: left;
+    height: 180px;
+    width: 180px;
+}
+
+/* to clear the float form the .selfieImg */
+.clear {
+    clear: both;
+}
+
+/* contact form submit button */
+.pb-4 .btn {
+    background-color: rgb(74, 170, 164);
+    color: white;
+    border-radius: 0%;
+}
+
+/* footer styles */
+footer {
+    background-color: rgb(102, 102, 102);
+    border-top: solid;
+    border-color: rgb(74, 170, 164);
+    border-width: 6px;
+}
+
+footer p {
+    background-color: rgb(102, 102, 102);
+    color: rgb(108, 117, 125);
+}
