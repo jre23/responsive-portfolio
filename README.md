@@ -28,7 +28,7 @@ The goal for this project was to create a mobile responsive portfolio using the 
 
 [Deployed on GitHub pages](https://jre23.github.io/responsive-portfolio/)
 
-[Screenshots]
+Screenshots:
 
 ![image](https://user-images.githubusercontent.com/69170823/93277899-f746c280-f777-11ea-8e8d-39374b5778cd.png)
 
@@ -45,7 +45,7 @@ Visual Studio Code: 1.48.2
 Google Chrome: 78.0.3904.130
 Git for Windows: 2.28.0.1
 
-Git clone link - https://github.com/jre23/responsive-portfolio.git
+Git clone link: https://github.com/jre23/responsive-portfolio.git
 
 ## Usage
 
