@@ -11,6 +11,10 @@ body {
     background-color: #b19f9e;
 }
 
+.portfolio-background {
+    background-color: #f4976c;
+}
+
 /* submit button */
 .submit-btn {
     background-color: #5680e9;
@@ -89,7 +93,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: plum;
+    color: #d1d7e0;
 }
 
 /* hover pseudoclass for when a user hovers the mouse pointer over the link */
