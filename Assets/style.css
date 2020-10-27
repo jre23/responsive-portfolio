@@ -55,7 +55,7 @@ body {
 
 /* for main section header titles */
 h1 {
-    color: rgb(74, 170, 164);
+    color: #2e151b;
 }
 
 /* for index about me selfie  */
@@ -117,7 +117,7 @@ footer p {
 
 footer {
     border-top: solid;
-    border-color: rgb(74, 170, 164);
+    border-color: #314455;
     border-width: 6px;
     position: fixed;
     left: 0;
