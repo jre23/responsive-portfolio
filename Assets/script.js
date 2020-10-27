@@ -1,7 +1,7 @@
 // giphy api
 
 // event listeners for cocktail and food buttons
-$("#submit-btn").on("click", searchProduct);
+$(".submit-btn").on("click", searchProduct);
 // $("#find-food").on("click", searchProduct);
 // $("#find-mood").on("click", searchProduct);
 

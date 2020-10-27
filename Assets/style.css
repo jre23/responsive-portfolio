@@ -1,24 +1,24 @@
-/* muted background */
+/* background */
 body {
-    background-image: url("./Images/background-image.jpg");
+    font-family: 'Open Sans', sans-serif;
+    /* background-image: url("./Images/gradient-background.jpg"); */
+    /* background-image: url("./Images/gradient-background-2.jpg"); */
+    /* background-image: url("./Images/gradient-background-3.jpg"); */
+    /* background-image: url("./Images/background-image.jpg"); */
 }
 
-/* navbar background color */
-nav {
-    background-color: rgb(248, 249, 250);
+.about-me {
+    background-color: #b19f9e;
 }
 
-/* navbar brand and submit button background color */
-.navbar-brand,
-.pb-4 .btn {
-    background-color: rgb(74, 170, 164);
+/* submit button */
+.submit-btn {
+    background-color: #5680e9;
+    border-radius: 20%;
 }
 
-/* navbar brand font and weight */
-.navbar-brand,
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
+.submit-background {
+    background-color: #c1c8e4;
 }
 
 @media screen and (min-width: 577px) {
@@ -48,8 +48,8 @@ h1 {
 }
 
 /* navbar brand and submit button font color */
-.navbar-light .navbar-brand,
-.pb-4 .btn {
+.navbar-brand,
+.btn {
     color: white;
 }
 
@@ -70,15 +70,11 @@ h1 {
     clear: both;
 }
 
-/* contact form submit button */
-.pb-4 .btn {
-    border-radius: 0%;
-}
-
 /* contact info section */
-.contact-border {
+.contact-border-background {
     border-left: solid;
     border-left-color: gray;
+    background-color: #5680e9;
 }
 
 .contact-header {
@@ -116,13 +112,17 @@ a:active {
 /* footer and footer paragraph styles */
 footer,
 footer p {
-    background-color: rgb(102, 102, 102);
+    background-color: #c1c8e4;
 }
 
 footer {
     border-top: solid;
     border-color: rgb(74, 170, 164);
     border-width: 6px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
