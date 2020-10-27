@@ -45,22 +45,18 @@ function displayProjectInfo(event) {
             $("#project-github-pages").attr("href", "https://jre23.github.io/BreakoutRoom_17");
             break;
         case "weather-dashboard":
-            console.log("weather");
             $("#project-github").attr("href", "https://github.com/jre23/weather-dashboard");
             $("#project-github-pages").attr("href", "https://jre23.github.io/weather-dashboard");
             break;
         case "work-day-scheduler":
-            console.log("work-day");
             $("#project-github").attr("href", "https://github.com/jre23/work-day-scheduler");
             $("#project-github-pages").attr("href", "https://jre23.github.io/work-day-scheduler");
             break;
-        case "coding-quiz":
-            console.log("coding");
+        case "timed-coding-quiz":
             $("#project-github").attr("href", "https: //github.com/jre23/timed-coding-quiz");
             $("#project-github-pages").attr("href", "https: //jre23.github.io/timed-coding-quiz");
             break;
         case "password-generator":
-            console.log("password");
             $("#project-github").attr("href", "https://github.com/jre23/password-generator");
             $("#project-github-pages").attr("href", "https://jre23.github.io/password-generator");
             break;
