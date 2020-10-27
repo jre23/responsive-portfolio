@@ -1,22 +1,48 @@
 # Responsive Portfolio
 
+## Table of Contents
+
+1. [Description](#Description)
+2. [GitHub Repo and Deployment](#GitHub-Repo-and-Deployment)
+3. [Screenshots](#Screenshots)
+4. [Technologies](#Technologies)
+5. [Installation](#Installation)
+6. [Usage](#Usage)
+7. [Credits](#Credits)
+
 ## Description
 
-The goal for this project was to create a mobile responsive portfolio using the Bootstrap CSS Framework. Each .html contains information about me and are linked to each other via the navbar. The contact page has my contact info and a form for general inquiries. The portfolio page has links to some of my projects!
+The goal for this project was to create a mobile responsive portfolio using the Bootstrap CSS Framework. Each .html contains information about me and are linked to each other via the navbar. The contact page has my contact info, a form for general inquiries, and a fun giphy image to look at! The portfolio page has links to some of my projects!
 
-## Check it out here! 
+## GitHub Repo and Deployment
 
 [GitHub repo](https://github.com/jre23/responsive-portfolio)
 
 [Deployed on GitHub pages](https://jre23.github.io/responsive-portfolio/)
 
-Screenshots:
+## Screenshots
 
-![image](https://user-images.githubusercontent.com/69170823/93277899-f746c280-f777-11ea-8e8d-39374b5778cd.png)
+![responsive portfolio screenshot 1](https://user-images.githubusercontent.com/69170823/97367422-49dec880-1866-11eb-89af-ac27e5f958e3.png)
 
-![image](https://user-images.githubusercontent.com/69170823/93278014-50aef180-f778-11ea-81e9-1a75cce0356b.png)
+![responsive portfolio screenshot 2](https://user-images.githubusercontent.com/69170823/97367599-a510bb00-1866-11eb-84a4-1f18a01220d3.png)
 
-![image](https://user-images.githubusercontent.com/69170823/93278092-8bb12500-f778-11ea-8714-521135f6f981.png)
+![responsive portfolio screenshot 3](https://user-images.githubusercontent.com/69170823/97367484-6da20e80-1866-11eb-8012-a90bf3078cbb.png)
+
+![responsive portfolio screenshot 4](https://user-images.githubusercontent.com/69170823/97367669-c4a7e380-1866-11eb-97f9-0d15bbf1a08f.png)
+
+![responsive portfolio screenshot 5](https://user-images.githubusercontent.com/69170823/97367542-8ad6dd00-1866-11eb-99c8-16319be05817.png)
+
+![responsive portfolio screenshot 6](https://user-images.githubusercontent.com/69170823/97367704-d4272c80-1866-11eb-8a69-231c87d06dbb.png)
+
+## Technologies
+
+Please see the following for a list of technologies used in this project:
+
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* jQuery
 
 ## Installation
 
