@@ -56,43 +56,55 @@
                     <h1>Portfolio</h1>
                 </header>
                 <hr>
-                <br>
             </section>
         </div>
-
+        <div class="row">
+            <div class=" col-12 col-md-8 col-lg-8 pl-4 pr-4 portfolio-background">
+                <p>Click on an image below to get the links to the GitHub repo and to the deployed GitHub page for that
+                    project!</p>
+            </div>
+        </div>
         <!-- row and columns for images -->
         <div class="row">
             <!-- first column for three images  -->
             <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pr-lg-3 portfolio-background">
-                <img class="img-fluid" alt="Blank image replacement 350px from https://placeholder.com/ saved locally"
-                    src="./Assets/Images/350.png">
+                <img class="img-fluid portfolio-click" alt="Project #1 The Night Planner screenshot"
+                    src="./Assets/Images/the-night-planner.png" value="the-night-planner">
                 <br>
                 <br>
                 <br>
-                <img class="img-fluid" alt="Blank image replacement 350px from https://placeholder.com/ saved locally"
-                    src="./Assets/Images/350.png">
+                <img class="img-fluid portfolio-click" alt="Weather Dashboard screenshot"
+                    src="./Assets/Images/weather-dashboard.png" value="weather-dashboard">
                 <br>
                 <br>
                 <br>
-                <img class="img-fluid"
-                    alt="Blank image replacement 350px from https://placeholder.com/ saved locally from https://placeholder.com/ saved locally"
-                    src="./Assets/Images/350.png">
+                <img class="img-fluid portfolio-click" alt="Work Day Scheduler screenshot"
+                    src="./Assets/Images/work-day-scheduler.png" value="work-day-scheduler">
                 <br>
                 <br>
                 <br>
             </div>
             <!-- second column for two images to expand to a new column for large screen widths  -->
             <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pl-lg-3 pr-lg-4 portfolio-background">
-                <img class="img-fluid" alt="Blank image replacement 350px from https://placeholder.com/ saved locally"
-                    src="./Assets/Images/350.png">
+                <img class="img-fluid portfolio-click" alt="Coding Quiz Challenge screenshot"
+                    src="./Assets/Images/coding-quiz.png" value="coding-quiz">
                 <br>
                 <br>
                 <br>
-                <img class="img-fluid" alt="Blank image replacement 350px from https://placeholder.com/ saved locally"
-                    src="./Assets/Images/350.png">
+                <img class="img-fluid portfolio-click" alt="Password Generator screenshot"
+                    src="./Assets/Images/password-generator.png" value="password-generator">
                 <br>
                 <br>
                 <br>
+            </div>
+            <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pl-lg-3 pr-lg-4">
+                <ul class="portfolio-background">
+                    <li>
+                        <h3 id="project-info-title"></h3>
+                    </li>
+                    <li><a id="project-github" href="" target="_blank" alt="Joel's LinkedIn profile"></a></li>
+                    <li><a id="project-github-pages" href="" target="_blank" alt="Joel's LinkedIn profile"></a></li>
+                </ul>
             </div>
         </div>
     </main>
@@ -107,6 +119,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="Assets/script.js"></script>
 
     <!-- Footer -->
     <footer class="text-center py-1">

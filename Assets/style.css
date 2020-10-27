@@ -18,7 +18,7 @@ body {
 /* submit button */
 .submit-btn {
     background-color: #5680e9;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 .submit-background {
@@ -93,7 +93,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #d1d7e0;
+    color: #123c69;
 }
 
 /* hover pseudoclass for when a user hovers the mouse pointer over the link */

@@ -1,16 +1,13 @@
 // giphy api
 
-// event listeners for cocktail and food buttons
+// event listener for submit button
 $(".submit-btn").on("click", searchProduct);
-// $("#find-food").on("click", searchProduct);
-// $("#find-mood").on("click", searchProduct);
 
-// function to search for a random giphy based off of what the product is, in this case cocktails or food 
+// function to search for a random giphy based off of what the button value is
 function searchProduct(event) {
     let searchItem = "";
     if (event) {
         event.preventDefault();
-        console.log(event.target.value);
         searchItem = event.target.value;
     } else {
         searchItem = "english bulldog";
@@ -22,11 +19,8 @@ function searchProduct(event) {
         url: queryURL,
         method: "GET"
     }).then(function (response) {
-        // check the response 
-        console.log(response);
         // use Math.random() to choose a random giphy
         let randomIndex = Math.floor(Math.random() * 50);
-        console.log("Random index: " + randomIndex);
         testURL = response.data[randomIndex].images.fixed_height.url;
         // append giphy to html
         let newImg = $("<img>");
@@ -34,6 +28,43 @@ function searchProduct(event) {
         $("#mood-giphy").empty();
         $("#mood-giphy").append(newImg.attr("src", testURL));
     })
+}
+
+// event listener for portfolio button
+$(".portfolio-click").on("click", displayProjectInfo);
+
+function displayProjectInfo(event) {
+    let projectInfo = event.target.getAttribute("value");
+    $("#project-info-title").text(projectInfo);
+    $("#project-github").text("GitHub repo");
+    $("#project-github-pages").text("GitHub Pages");
+
+    switch (projectInfo) {
+        case "the-night-planner":
+            $("#project-github").attr("href", "https://github.com/jre23/BreakoutRoom_17");
+            $("#project-github-pages").attr("href", "https://jre23.github.io/BreakoutRoom_17");
+            break;
+        case "weather-dashboard":
+            console.log("weather");
+            $("#project-github").attr("href", "https://github.com/jre23/weather-dashboard");
+            $("#project-github-pages").attr("href", "https://jre23.github.io/weather-dashboard");
+            break;
+        case "work-day-scheduler":
+            console.log("work-day");
+            $("#project-github").attr("href", "https://github.com/jre23/work-day-scheduler");
+            $("#project-github-pages").attr("href", "https://jre23.github.io/work-day-scheduler");
+            break;
+        case "coding-quiz":
+            console.log("coding");
+            $("#project-github").attr("href", "https: //github.com/jre23/timed-coding-quiz");
+            $("#project-github-pages").attr("href", "https: //jre23.github.io/timed-coding-quiz");
+            break;
+        case "password-generator":
+            console.log("password");
+            $("#project-github").attr("href", "https://github.com/jre23/password-generator");
+            $("#project-github-pages").attr("href", "https://jre23.github.io/password-generator");
+            break;
+    }
 }
 
 searchProduct();
