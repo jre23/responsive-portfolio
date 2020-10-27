@@ -4,16 +4,16 @@ body {
 }
 
 .bg-index {
-    background-image: url("./Images/gradient-background-3.png");
+    background-image: url("./Images/matrix-background.png");
 }
 
 .bg-contact {
-    background-image: url("./Images/gradient-background.jpg");
+    background-image: url("./Images/coding-background.jpg");
     opacity: 0.8;
 }
 
 .bg-portfolio {
-    background-image: url("./Images/gradient-background-2.png");
+    background-image: url("./Images/cloud-background.png");
 }
 
 .bg-index,
