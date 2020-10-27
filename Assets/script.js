@@ -53,8 +53,8 @@ function displayProjectInfo(event) {
             $("#project-github-pages").attr("href", "https://jre23.github.io/work-day-scheduler");
             break;
         case "timed-coding-quiz":
-            $("#project-github").attr("href", "https: //github.com/jre23/timed-coding-quiz");
-            $("#project-github-pages").attr("href", "https: //jre23.github.io/timed-coding-quiz");
+            $("#project-github").attr("href", "https://github.com/jre23/timed-coding-quiz");
+            $("#project-github-pages").attr("href", "https://jre23.github.io/timed-coding-quiz");
             break;
         case "password-generator":
             $("#project-github").attr("href", "https://github.com/jre23/password-generator");
