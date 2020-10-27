@@ -7,9 +7,14 @@ $("#submit-btn").on("click", searchProduct);
 
 // function to search for a random giphy based off of what the product is, in this case cocktails or food 
 function searchProduct(event) {
-    event.preventDefault();
-    console.log(event.target.value);
-    let searchItem = event.target.value;
+    let searchItem = "";
+    if (event) {
+        event.preventDefault();
+        console.log(event.target.value);
+        searchItem = event.target.value;
+    } else {
+        searchItem = "english bulldog";
+    }
     let APIKey = "ktRl6hM5PH2xVxYouRQctIN7phpaRjMr";
     let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchItem + "&api_key=" + APIKey + "&limit=50";
     // make ajax call 
@@ -30,3 +35,5 @@ function searchProduct(event) {
         $("#mood-giphy").append(newImg.attr("src", testURL));
     })
 }
+
+searchProduct();
