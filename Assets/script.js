@@ -1,12 +1,13 @@
 // event listener for submit button on contact page
 $(".submit-btn").on("click", searchProduct);
 
-// function to search for a random giphy based off of what the button value is
+// function to search for a random giphy based off of what the button data-target is
 function searchProduct(event) {
     let searchItem = "";
     if (event) {
         event.preventDefault();
-        searchItem = event.target.value;
+        let value = event.target.getAttribute("data-value");
+        searchItem = value;
     } else {
         searchItem = "english bulldog";
     }
@@ -33,7 +34,7 @@ $(".portfolio-click").on("click", displayProjectInfo);
 
 // this function creates the links to the github repo and github page for the portfolio page when a screenshot is clicked
 function displayProjectInfo(event) {
-    let projectInfo = event.target.getAttribute("value");
+    let projectInfo = event.target.getAttribute("data-project");
     $("#project-info-title").text(projectInfo);
     $("#project-github").text("GitHub repo");
     $("#project-github-pages").text("GitHub Pages");
