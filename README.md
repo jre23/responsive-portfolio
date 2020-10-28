@@ -43,6 +43,7 @@ Please see the following for a list of technologies used in this project:
 * Bootstrap
 * JavaScript
 * jQuery
+* GIPHY Developers API
 
 ## Installation
 

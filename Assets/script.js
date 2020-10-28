@@ -41,8 +41,8 @@ function displayProjectInfo(event) {
 
     switch (projectInfo) {
         case "the-night-planner":
-            $("#project-github").attr("href", "https://github.com/jre23/BreakoutRoom_17");
-            $("#project-github-pages").attr("href", "https://jre23.github.io/BreakoutRoom_17");
+            $("#project-github").attr("href", "https://github.com/jre23/the-night-planner");
+            $("#project-github-pages").attr("href", "https://jre23.github.io/the-night-planner");
             break;
         case "weather-dashboard":
             $("#project-github").attr("href", "https://github.com/jre23/weather-dashboard");
