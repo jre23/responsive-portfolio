@@ -1,6 +1,4 @@
-// giphy api
-
-// event listener for submit button
+// event listener for submit button on contact page
 $(".submit-btn").on("click", searchProduct);
 
 // function to search for a random giphy based off of what the button value is
@@ -33,12 +31,13 @@ function searchProduct(event) {
 // event listener for portfolio button
 $(".portfolio-click").on("click", displayProjectInfo);
 
+// this function creates the links to the github repo and github page for the portfolio page when a screenshot is clicked
 function displayProjectInfo(event) {
     let projectInfo = event.target.getAttribute("value");
     $("#project-info-title").text(projectInfo);
     $("#project-github").text("GitHub repo");
     $("#project-github-pages").text("GitHub Pages");
-
+    // switch statement to determine what links to display based off what screenshot is clicked 
     switch (projectInfo) {
         case "the-night-planner":
             $("#project-github").attr("href", "https://github.com/jre23/the-night-planner");
@@ -62,5 +61,5 @@ function displayProjectInfo(event) {
             break;
     }
 }
-
+// call searchProduct function to display a giphy when contact page is loaded
 searchProduct();
