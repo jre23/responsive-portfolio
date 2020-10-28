@@ -6,7 +6,7 @@ function searchProduct(event) {
     let searchItem = "";
     if (event) {
         event.preventDefault();
-        let value = event.target.getAttribute("data-value");
+        let value = event.target.getAttribute("data-target");
         searchItem = value;
     } else {
         searchItem = "english bulldog";
