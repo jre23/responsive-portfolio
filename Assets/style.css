@@ -1,67 +1,9 @@
-/* background */
+/* portfolio font  */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.bg-index {
-    background-image: url("./Images/matrix-background.png");
-}
-
-.bg-contact {
-    background-image: url("./Images/coding-background.jpg");
-    opacity: 0.8;
-}
-
-.bg-portfolio {
-    background-image: url("./Images/cloud-background.png");
-}
-
-.bg-index,
-.bg-contact,
-.bg-portfolio {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
-/* navbar backgrounds */
-.nav-index {
-    background-color: #2d283e;
-}
-
-.nav-portfolio {
-    background-color: #5d5c61;
-}
-
-.nav-contact {
-    background-color: #44318d;
-}
-
-.about-me {
-    background-color: #b19f9e;
-}
-
-.portfolio-background {
-    background-color: #f4976c;
-}
-
-.position-stick {
-    position: sticky;
-    top: 15px;
-}
-
-/* submit button */
-.submit-btn {
-    background-color: #5680e9;
-    border-radius: 50%;
-}
-
-.submit-background {
-    background-color: #c1c8e4;
-}
-
+/* font sizes for responsiveness */
 @media screen and (min-width: 577px) {
     h1 {
         font-size: 40px;
@@ -88,13 +30,73 @@ body {
     }
 }
 
-/* navbar brand and submit button font color */
+/* background images for each page */
+.bg-index {
+    background-image: url("./Images/matrix-background.png");
+}
+
+.bg-contact {
+    background-image: url("./Images/coding-background.jpg");
+    opacity: 0.8;
+}
+
+.bg-portfolio {
+    background-image: url("./Images/cloud-background.png");
+}
+
+.bg-index,
+.bg-contact,
+.bg-portfolio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* navbar background colors */
+.nav-index {
+    background-color: #2d283e;
+}
+
+.nav-portfolio {
+    background-color: #5d5c61;
+}
+
+.nav-contact {
+    background-color: #44318d;
+}
+
+/* about me container background color */
+.about-me {
+    background-color: #b19f9e;
+}
+
+/* portfolio container background color */
+.portfolio-background {
+    background-color: #f4976c;
+}
+
+/* github links for portfolio */
+.position-stick {
+    position: sticky;
+    top: 15px;
+}
+
+/* submit button */
+.submit-btn {
+    background-color: #5680e9;
+    border-radius: 50%;
+}
+
+/* navbar brand, submit button, and contact info font color */
 .navbar-brand,
-.btn {
+.btn,
+.contact-header {
     color: white;
 }
 
-/* for main section header titles */
+/* for main section header titles except contact info */
 h1 {
     color: #2e151b;
 }
@@ -116,10 +118,6 @@ h1 {
     border-left: solid;
     border-left-color: gray;
     background-color: #5680e9;
-}
-
-.contact-header {
-    color: white;
 }
 
 /* unvisited link */
@@ -150,9 +148,10 @@ a:active {
     color: orange;
 }
 
-/* footer and footer paragraph styles */
+/* footer, footer paragraph, and general inquiries container */
 footer,
-footer p {
+footer p,
+.submit-background {
     background-color: #c1c8e4;
 }
 
