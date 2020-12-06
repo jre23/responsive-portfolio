@@ -60,6 +60,11 @@ function displayProjectInfo(event) {
             $("#project-github").attr("href", "https://github.com/jre23/password-generator");
             $("#project-github-pages").attr("href", "https://jre23.github.io/password-generator");
             break;
+        case "eat-da-burger":
+            $("#project-github-pages").text("Heroku Deployment");
+            $("#project-github").attr("href", "https://github.com/jre23/eat-da-burger");
+            $("#project-github-pages").attr("href", "https://salty-meadow-91006.herokuapp.com");
+            break;
     }
 }
 // call searchProduct function to display a giphy when contact page is loaded
