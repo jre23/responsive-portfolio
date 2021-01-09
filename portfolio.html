@@ -51,7 +51,7 @@
     <main class="container my-5 pt-4">
         <!-- row and column for h1 title -->
         <div class="row">
-            <section class=" col-12 col-md-8 col-lg-8 pt-4 pl-4 pr-4 portfolio-background">
+            <section class=" col-12 col-md-8 pt-4 pl-4 pr-4 portfolio-background">
                 <header>
                     <h1>Portfolio</h1>
                 </header>
@@ -59,40 +59,23 @@
             </section>
         </div>
         <div class="row">
-            <div class=" col-12 col-md-8 col-lg-8 pl-4 pr-4 portfolio-background">
-                <p>Click on an image below to get the links to the GitHub repo and to the deployed app for that project!
-                    Mobile users' links are at the bottom, please scroll to the bottom to see the links!</p>
+            <div class=" col-12 col-md-8 pl-4 pr-4 portfolio-background">
+                <h5>Click on an image below to get the links to the GitHub repo and to the deployed app for that
+                    project!
+                    Mobile users' links are at the bottom, please scroll to the bottom to see the links!</h5>
             </div>
         </div>
         <!-- row and columns for images -->
         <div class="row">
-            <!-- first column for three images  -->
+            <!-- first column -->
             <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pr-lg-3 portfolio-background">
+                <img class="img-fluid portfolio-click" alt="Project #2 Bear Share screenshot"
+                    src="./Assets/Images/bear-share.png" data-project="bear-share">
+                <br>
+                <br>
+                <br>
                 <img class="img-fluid portfolio-click" alt="Project #1 The Night Planner screenshot"
                     src="./Assets/Images/the-night-planner.png" data-project="the-night-planner">
-                <br>
-                <br>
-                <br>
-                <img class="img-fluid portfolio-click" alt="Weather Dashboard screenshot"
-                    src="./Assets/Images/weather-dashboard.png" data-project="weather-dashboard">
-                <br>
-                <br>
-                <br>
-                <img class="img-fluid portfolio-click" alt="Work Day Scheduler screenshot"
-                    src="./Assets/Images/work-day-scheduler.png" data-project="work-day-scheduler">
-                <br>
-                <br>
-                <br>
-            </div>
-            <!-- second column for two images to expand to a new column for large screen widths  -->
-            <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pl-lg-3 pr-lg-4 portfolio-background">
-                <img class="img-fluid portfolio-click" alt="Timed Coding Quiz Challenge screenshot"
-                    src="./Assets/Images/timed-coding-quiz.png" data-project="timed-coding-quiz">
-                <br>
-                <br>
-                <br>
-                <img class="img-fluid portfolio-click" alt="Password Generator screenshot"
-                    src="./Assets/Images/password-generator.png" data-project="password-generator">
                 <br>
                 <br>
                 <br>
@@ -102,15 +85,36 @@
                 <br>
                 <br>
             </div>
-            <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pl-lg-3 pr-lg-4">
-                <ul class="portfolio-background position-stick">
-                    <li>
-                        <h3 id="project-info-title"></h3>
-                    </li>
-                    <li><a id="project-github" href="" target="_blank"></a></li>
-                    <li><a id="project-github-pages" href="" target="_blank"></a>
-                    </li>
-                </ul>
+            <!-- second column for images to expand to for larger screen widths  -->
+            <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pl-lg-3 pr-lg-4 portfolio-background">
+                <img class="img-fluid portfolio-click" alt="Note Taker screenshot" src="./Assets/Images/note-taker.png"
+                    data-project="note-taker">
+                <br>
+                <br>
+                <br>
+                <img class="img-fluid portfolio-click" alt="Weather Dashboard screenshot"
+                    src="./Assets/Images/weather-dashboard.png" data-project="weather-dashboard">
+                <br>
+                <br>
+                <br>
+                <img class="img-fluid portfolio-click" alt="Timed Coding Quiz screenshot"
+                    src="./Assets/Images/timed-coding-quiz.png" data-project="timed-coding-quiz">
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pl-lg-3 pr-lg-4 position-stick">
+                <div class="position-stick">
+                    <ul class="portfolio-background">
+                        <li>
+                            <h3 id="project-info-title"></h3>
+                        </li>
+                        <li><a id="project-github" href="" target="_blank"></a></li>
+                        <li><a id="project-github-pages" href="" target="_blank"></a>
+                        </li>
+                    </ul>
+                    <img class="img-fluid portfolio-click clickedOn" alt="" src="" data-project="">
+                </div>
             </div>
         </div>
     </main>
