@@ -60,77 +60,88 @@
         </div>
         <div class="row">
             <div class=" col-12 col-md-8 pl-4 pr-4 portfolio-background">
-                <h5>Click on an image below to get the links to the GitHub repo and to the deployed app for that
-                    project!
-                    Mobile users' links are at the bottom, please scroll to the bottom to see the links!</h5>
+                <h5>Click on an image below to get the links to the GitHub Repository and to the deployed application
+                    for that project!</h5>
             </div>
         </div>
         <!-- row and columns for images -->
         <div class="row">
             <!-- first column -->
             <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pr-lg-3 portfolio-background">
-                <img class="img-fluid portfolio-click" alt="Project #2 Bear Share screenshot"
-                    src="./Assets/Images/bear-share.png" data-project="bear-share">
+                <img data-bs-toggle="modal" data-bs-target="#projectModal" class="img-fluid portfolio-click"
+                    alt="Project #2 Bear Share screenshot" src="./Assets/Images/bear-share.png"
+                    data-project="bear-share">
                 <br>
                 <br>
                 <br>
-                <img class="img-fluid portfolio-click" alt="Project #1 The Night Planner screenshot"
-                    src="./Assets/Images/the-night-planner.png" data-project="the-night-planner">
+                <img data-bs-toggle="modal" data-bs-target="#projectModal" class="img-fluid portfolio-click"
+                    alt="Project #1 The Night Planner screenshot" src="./Assets/Images/the-night-planner.png"
+                    data-project="the-night-planner">
                 <br>
                 <br>
                 <br>
-                <img class="img-fluid portfolio-click" alt="Eat Da Burger screenshot"
-                    src="./Assets/Images/eat-da-burger.png" data-project="eat-da-burger">
+                <img data-bs-toggle="modal" data-bs-target="#projectModal" class="img-fluid portfolio-click"
+                    alt="Eat Da Burger screenshot" src="./Assets/Images/eat-da-burger.png" data-project="eat-da-burger">
                 <br>
                 <br>
                 <br>
             </div>
             <!-- second column for images to expand to for larger screen widths  -->
             <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pl-lg-3 pr-lg-4 portfolio-background">
-                <img class="img-fluid portfolio-click" alt="Note Taker screenshot" src="./Assets/Images/note-taker.png"
-                    data-project="note-taker">
+                <img data-bs-toggle="modal" data-bs-target="#projectModal" class="img-fluid portfolio-click"
+                    alt="Note Taker screenshot" src="./Assets/Images/note-taker.png" data-project="note-taker">
                 <br>
                 <br>
                 <br>
-                <img class="img-fluid portfolio-click" alt="Weather Dashboard screenshot"
-                    src="./Assets/Images/weather-dashboard.png" data-project="weather-dashboard">
+                <img data-bs-toggle="modal" data-bs-target="#projectModal" class="img-fluid portfolio-click"
+                    alt="Weather Dashboard screenshot" src="./Assets/Images/weather-dashboard.png"
+                    data-project="weather-dashboard">
                 <br>
                 <br>
                 <br>
-                <img class="img-fluid portfolio-click" alt="Timed Coding Quiz screenshot"
-                    src="./Assets/Images/timed-coding-quiz.png" data-project="timed-coding-quiz">
+                <img data-bs-toggle="modal" data-bs-target="#projectModal" class="img-fluid portfolio-click"
+                    alt="Timed Coding Quiz screenshot" src="./Assets/Images/timed-coding-quiz.png"
+                    data-project="timed-coding-quiz">
                 <br>
                 <br>
                 <br>
             </div>
-            <div class="col-12 col-md-8 col-lg-4 pl-4 pr-4 pl-lg-3 pr-lg-4 position-stick">
-                <div class="position-stick">
-                    <ul class="portfolio-background">
-                        <li>
-                            <h3 id="project-info-title"></h3>
-                        </li>
+        </div>
+    </main>
+
+    <!-- modal  -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="project-info-title"></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
                         <li><a id="project-github" href="" target="_blank"></a></li>
                         <li><a id="project-github-pages" href="" target="_blank"></a>
                         </li>
                     </ul>
                     <img class="img-fluid portfolio-click clickedOn" alt="" src="" data-project="">
                 </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
-    </main>
+    </div>
 
     <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
     <script src="Assets/script.js"></script>
 
     <!-- Footer -->

@@ -32,7 +32,7 @@ $(document).ready(() => {
     const displayProjectInfo = event => {
         let projectInfo = event.target.getAttribute("data-project");
         $("#project-info-title").text(projectInfo);
-        $("#project-github").text("GitHub repo");
+        $("#project-github").text("GitHub Repository");
         $("#project-github-pages").text("GitHub Pages");
         // switch statement to determine what links to display based off what screenshot is clicked 
         switch (projectInfo) {
