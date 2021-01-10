@@ -6,11 +6,13 @@ body {
 /* font sizes for responsiveness */
 @media screen and (min-width: 577px) {
     h1 {
-        font-size: 40px;
+        font-size: 27px;
     }
+}
 
-    .contact-info {
-        font-size: 20px;
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 38px;
     }
 }
 
@@ -19,14 +21,6 @@ body {
     h1,
     h2 {
         font-size: 25px;
-    }
-
-    .contact-info {
-        font-size: 4vw;
-    }
-
-    .email-text {
-        font-size: 3.6vw;
     }
 }
 
