@@ -2,13 +2,15 @@
 
 ## Table of Contents
 
-1. [Description](#Description)
-2. [GitHub Repo and Deployment](#GitHub-Repo-and-Deployment)
-3. [Screenshots](#Screenshots)
-4. [Technologies](#Technologies)
-5. [Installation](#Installation)
-6. [Usage](#Usage)
-7. [Credits](#Credits)
+- [Responsive Portfolio](#responsive-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [GitHub Repo and Deployment](#github-repo-and-deployment)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
 
 ## Description
 
@@ -22,17 +24,17 @@ The goal for this project was to create a mobile responsive portfolio using the 
 
 ## Screenshots
 
-![responsive portfolio screenshot 1](https://user-images.githubusercontent.com/69170823/97367422-49dec880-1866-11eb-89af-ac27e5f958e3.png)
+![responsive portfolio screenshot 1](https://user-images.githubusercontent.com/69170823/104141771-3e7f4180-536d-11eb-88ec-8d71d2a93bf1.png)
 
-![responsive portfolio screenshot 2](https://user-images.githubusercontent.com/69170823/97367599-a510bb00-1866-11eb-84a4-1f18a01220d3.png)
+![responsive portfolio screenshot 2](https://user-images.githubusercontent.com/69170823/104141747-1a236500-536d-11eb-8b41-fa8fae9f94e1.png)
 
-![responsive portfolio screenshot 3](https://user-images.githubusercontent.com/69170823/97367484-6da20e80-1866-11eb-8012-a90bf3078cbb.png)
+![responsive portfolio screenshot 3](https://user-images.githubusercontent.com/69170823/104141812-7090a380-536d-11eb-8e02-0ee020054b9a.png)
 
-![responsive portfolio screenshot 4](https://user-images.githubusercontent.com/69170823/97367669-c4a7e380-1866-11eb-97f9-0d15bbf1a08f.png)
+![responsive portfolio screenshot 4](https://user-images.githubusercontent.com/69170823/104141710-ee07e400-536c-11eb-98aa-7f512e0003ac.png)
 
-![responsive portfolio screenshot 5](https://user-images.githubusercontent.com/69170823/97367542-8ad6dd00-1866-11eb-99c8-16319be05817.png)
+![responsive portfolio screenshot 5](https://user-images.githubusercontent.com/69170823/104141873-bc434d00-536d-11eb-86fd-40b86583e95a.png)
 
-![responsive portfolio screenshot 6](https://user-images.githubusercontent.com/69170823/97367704-d4272c80-1866-11eb-8a69-231c87d06dbb.png)
+![responsive portfolio screenshot 6](https://user-images.githubusercontent.com/69170823/104141213-89e42080-536a-11eb-8603-daa252c60516.png)
 
 ## Technologies
 

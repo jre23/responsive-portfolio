@@ -5,8 +5,13 @@ body {
 
 /* font sizes for responsiveness */
 @media screen and (min-width: 577px) {
+
     h1 {
         font-size: 27px;
+    }
+
+    h6 {
+        font-size: 21px;
     }
 }
 
