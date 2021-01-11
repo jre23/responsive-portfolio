@@ -31,16 +31,16 @@ body {
 
 /* background images for each page */
 .bg-index {
-    background-image: url("./Images/matrix-background.png");
+    background-image: url("../Images/matrix-background.png");
 }
 
 .bg-contact {
-    background-image: url("./Images/coding-background.jpg");
+    background-image: url("../Images/coding-background.jpg");
     opacity: 0.8;
 }
 
 .bg-portfolio {
-    background-image: url("./Images/cloud-background.png");
+    background-image: url("../Images/cloud-background.png");
 }
 
 .bg-index,
