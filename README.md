@@ -2,8 +2,6 @@
 
 ## Table of Contents
 
-- [Responsive Portfolio](#responsive-portfolio)
-  - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [GitHub Repo and Deployment](#github-repo-and-deployment)
   - [Screenshots](#screenshots)
