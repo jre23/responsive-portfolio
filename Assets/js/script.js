@@ -23,7 +23,10 @@ $(document).ready(() => {
             let newImg = $("<img>");
             newImg.addClass("img-fluid");
             $("#mood-giphy").empty();
-            $("#mood-giphy").append(newImg.attr("src", testURL));
+            $("#mood-giphy").append(newImg.attr({
+                src: testURL,
+                alt: "bulldog or thank you gif"
+            }));
         }).catch((e) => {
             console.log(e)
         });
