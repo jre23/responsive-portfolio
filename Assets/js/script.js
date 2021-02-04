@@ -3,7 +3,7 @@ $(document).ready(() => {
     const searchProduct = event => {
         let searchItem = "";
         if (event) {
-            event.preventDefault();
+            // event.preventDefault();
             let value = event.target.getAttribute("data-target");
             searchItem = value;
         } else {
