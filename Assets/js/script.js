@@ -86,10 +86,14 @@ $(document).ready(() => {
                 break;
         }
     }
+    const clearForm = () => {
+        document.getElementById("contactForm").reset();
+    }
     // event listener for submit button on contact page
     $(".submit-btn").on("click", searchProduct);
     // event listener for portfolio screenshots
     $(".portfolio-click").on("click", displayProjectInfo);
     // call searchProduct function to display a giphy when contact page is loaded
     searchProduct();
+    clearForm();
 });
