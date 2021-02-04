@@ -87,7 +87,12 @@ $(document).ready(() => {
         }
     }
     const clearForm = () => {
-        document.getElementById("contactForm").reset();
+        let formValue = document.getElementById("contactForm");
+        if (formValue !== null) {
+            document.getElementById("contactForm").reset();
+        } else {
+            return;
+        }
     }
     // event listener for submit button on contact page
     $(".submit-btn").on("click", searchProduct);
